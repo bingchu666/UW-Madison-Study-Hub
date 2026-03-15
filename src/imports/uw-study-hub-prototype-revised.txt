@@ -1,0 +1,72 @@
+Revise the existing high-fidelity prototype for “UW Study Hub” based on recent usability testing feedback. Keep the overall product concept, information architecture, and two main tasks the same, but improve the prototype in the following ways.
+
+Context:
+UW Study Hub is a desktop-first student planning app for UW–Madison students. It combines:
+- cross-course assignments and task management,
+- external submission tracking (e.g., Gradescope / external websites),
+- official exam information,
+- reminders and weekly planning.
+
+Keep these main sections:
+- Home
+- Tasks
+- Exams
+- Planner
+
+Keep these two core usability-testing flows working:
+1) Task A: find an assignment, recognize that it uses an external website/tool, and understand the next step.
+2) Task B: find exam information and set a reminder.
+
+Now revise the design using these usability test insights:
+- The Planner should support custom user-defined items, such as personal study blocks, custom reminders, and personal events.
+- The Tasks page should prioritize unfinished work by default: show Not started and In progress items at the top, and move Submitted items lower.
+- The font size for the left navigation tabs should be larger and easier to scan.
+- Assignment/task cards on the Home page should also include a Set reminder action, not only exam cards.
+- The Exams experience can be improved by allowing users to open a related course page, study page, or practice midterm from an exam item.
+- Keep the prototype clean and intuitive because participants generally found the assignment flow and exam-reminder flow understandable and easy to use.
+
+Revise these screens:
+
+1) Home
+- Keep a weekly overview layout.
+- Left section: “This week’s tasks”.
+  - Each task card should show: course code, assignment title, due date/time, status, and whether it uses an external tool.
+  - Add a small Set reminder action on assignment cards.
+- Right section: “Upcoming exams”.
+  - Keep exam cards with date, time, location, and reminder action.
+- Improve visual hierarchy so tasks and exams are easy to scan.
+
+2) Tasks
+- Keep the cross-course task list.
+- Default sorting should place Not started and In progress items at the top.
+- Submitted items should appear lower in the list or in a separate lower-priority section.
+- Make the external-tool indicator clear.
+- Preserve filters for status and due date if already present.
+
+3) Task Detail
+- Keep the step-by-step checklist format.
+- Preserve the idea that the assignment may require an external website or external submission tool.
+- Make the submission status easy to see in one place.
+- Keep reminder options for the assignment.
+
+4) Exams
+- Keep the dedicated Exams screen.
+- For each exam entry, show course, exam type, date, time, and location.
+- Keep Set reminder and Add to calendar actions.
+- Add an additional action such as “Open course page”, “Go to class page”, or “Study resources” so users can quickly jump to course-specific prep materials.
+- Preserve a clear “Upcoming exams” section near the top.
+
+5) Planner
+- Keep the weekly planning view.
+- Add a clear “Add custom item” or “New custom event” action.
+- Let users add personal study blocks, personal reminders, or custom events that do not come from Canvas or MyUW.
+- Make custom items visually distinct from system-generated assignments and exams while still fitting into the same planner view.
+
+Navigation and readability
+- Increase the font size and visual prominence of the left sidebar tabs: Home, Tasks, Exams, Planner.
+- Keep the interface clean, modern, and easy to scan.
+- Do not redesign the product from scratch; this is an iteration on the existing prototype.
+- Preserve the current strengths: assignment flows should still feel clear, and exam information plus reminder setting should remain fast and intuitive.
+
+Deliverable goal
+Produce an updated, clickable high-fidelity prototype that reflects usability-test-driven revisions while keeping the original concept intact.

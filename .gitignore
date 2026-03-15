@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.local.example
+node_modules/
+dist/
+logs/
+.uwstudyhub.pid
+.DS_Store
+*.log
+server/data/store.json
